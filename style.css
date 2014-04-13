@@ -1,6 +1,7 @@
 
 html {
-  background-color: #CFEFFC;
+  /* background-color: #CFEFFC; */
+  background-image:url("download.png");
   color: #171717;
   font-size: 1em;
   line-height: 1.4;
@@ -16,12 +17,19 @@ body {
   width: 50em;
 }
 
+.box {
+  background: rgba(255,255,255,0.6);
+  padding: 20px;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px;
+}
+
 h1 {
   font-size: 4.4em;
   font-weight: 700;
   font-family: 'Averia Serif Libre', sans-serif;
   text-align: left;
-  padding-left: 0em;
+  padding-left: 0.2em;
 }
 
 p {
