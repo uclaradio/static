@@ -1,11 +1,8 @@
 
 html {
-  /* background-color: #CFEFFC; */
   background-image:url('download.png');
-  color: #171717;
   font-size: 1em;
   line-height: 1.4;
-  background-size: contain;
 }
 
 body {
@@ -42,7 +39,7 @@ a {
 }
 
 a:hover {
-  color: #89C8F0
+  color: #89C8F0;
 }
 
 
