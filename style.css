@@ -1,7 +1,8 @@
 
 html {
   /* background-color: #CFEFFC; */
-  background-image:url("download.png");
+  background-image:url('download.png');
+  background-size: contain;
   color: #171717;
   font-size: 1em;
   line-height: 1.4;
@@ -18,24 +19,30 @@ body {
 }
 
 .box {
-  background: rgba(255,255,255,0.6);
+  background: rgba(255,255,255,0.5);
   padding: 20px;
   border-radius: 3px;
-  box-shadow: 1px 1px 1px;
 }
 
 h1 {
-  font-size: 4.4em;
+  font-size: 5.0em;
   font-weight: 700;
   font-family: 'Averia Serif Libre', sans-serif;
   text-align: center;
-  padding-left: 0.0em;
 }
 
 p {
   font-size: 1.5em;
   font-weight: 200;
   font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+  color: #3C7599;
+}
+
+a:hover {
+  color: #89C8F0
 }
 
 
